@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UserSearch from './classes/UserSearch';
+import UserSearch from './refs/UserSearch';
 
 const users = [
   {
@@ -20,7 +20,7 @@ const users = [
 const App = () => {
   return (
     <div>
-      <UserSearch users={users} />
+      <UserSearch />
     </div>
   );
 };
