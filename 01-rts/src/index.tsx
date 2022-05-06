@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Parent from './proos/Parent';
+import UserSearch from './state/UserSearch';
 
 const App = () => {
   return (
     <div>
-      <Parent />
+      <UserSearch />
     </div>
   );
 };
