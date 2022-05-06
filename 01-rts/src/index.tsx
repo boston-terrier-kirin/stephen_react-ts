@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Parent from './proos/Parent';
 
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Parent />
+    </div>
+  );
 };
 
 const root = ReactDOM.createRoot(
